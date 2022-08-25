@@ -1,0 +1,47 @@
+.navbar {
+	display: flex;
+	justify-content: space-between;
+	margin: 0 96px;
+	align-items: center;
+	margin-top: 72px;
+}
+.nav-links {
+	display: flex;
+	gap: 56px;
+	font-family: 'Satoshi';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 24px;
+	margin: 12px 0;
+	align-items: center;
+}
+.menu-icon {
+	width: 20px;
+	height: 16px;
+	display: none;
+}
+@media (max-width: 767px) {
+	.navbar {
+		margin: 0 32px;
+		margin-top: 40px;
+	}
+	.nav-links {
+		gap: 40px;
+	}
+	.menu-icon {
+		display: none;
+	}
+}
+@media (max-width: 639px) {
+	.navbar {
+		margin: 0 16px;
+		margin-top: 27px;
+	}
+	.nav-links {
+		display: none;
+	}
+	.menu-icon {
+		display: inline-flex;
+	}
+}
